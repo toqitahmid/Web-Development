@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User From</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        
+        <br>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+    
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required>
+        </div>
+    
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" required>
+        </div>
+    
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="text" name="birthday" id="birthday" max="2025-09-10" required>
+        </div>
+    
+        <br>
+    
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+    
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+    
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </div>
+    
+        <div>
+            <label for="nationalities">Choose a nationality:</label>
+            <select name="nationalities" id="nationalities">
+    
+                <optgroup label="First nationality">
+                    <option value="dreamer">Dreamer</option>
+                    <option value="worker">Worker</option>
+                </optgroup>
+    
+            </select>
+        </div>
+    
+        <div>
+            <br>
+            <label for="resion">Tell us why you want to register:</label>
+            <br>
+            <textarea name="comment" id="resion" rows="5" cols="40"></textarea>
+        </div>
+    
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
