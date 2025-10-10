@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Araf's Portfolio" />
+    <meta name="author" content="Abu Sams Araf" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <h1 class="logo">Araf<span>.dev</span></h1>
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main id="home">
+      <section class="hero" role="banner">
+        <div class="container">
+          <h2>Hello, I'm <span class="highlight">Araf</span></h2>
+          <p>
+            A passionate <strong>Web Developer</strong> building beautiful and
+            functional web experiences.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <div class="container">
+          <h2>Featured Projects</h2>
+          <article class="project-card" data-skill="JavaScript">
+            <img src="" alt="Screenshot of Project 1" />
+            <div class="project-info">
+              <h3>Portfolio Website</h3>
+              <p>
+                A fully responsive and modern personal portfolio site built with
+                HTML, CSS, and JavaScript.
+              </p>
+              <p>
+                <a href="#" target="_blank" class="btn">View Project</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card" data-skill="Pyhton">
+            <img src="" alt="Screenshotof Project 2" />
+            <div class="project-info">
+              <h3>Django Blog App</h3>
+              <p>
+                A full-stack blog application built with user authentication,
+                admin dashboard, and API endpoints.
+              </p>
+              <a href="#" target="_blank" rel="noopener" class="btn"
+                >View Project</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTIONS -->
+
+      <section id="skills">
+        <div class="container">
+          <h2>My Skills</h2>
+          <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Araf, a web developer with a passionate full-stack web
+            developer form Bangladesh. I love creating digital solutions that
+            make life easy easier and more enjoyable. My journey began with C,
+            moved into Pyhton and now I'm exploring JavaScript and modern web
+            technolgies.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+
+      <section id="contact">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <form action="#" method="post" autocomplete="off">
+            <fieldset>
+              <legend>Contact Form</legend>
+
+              <label for="name">Name: </label>
+              <input type="text" name="name" id="name" required />
+
+              <label for="email">Email: </label>
+              <input type="text" name="email" id="email" required />
+
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                required
+              ></textarea>
+              <button type="button" class="btn">Send Message</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Araf. All rights reserved.</p>
+            <p>Built with HTML5, CSS3 and JavaScript</p>
+
+            <div class="socials">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
