@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="describtion" content="A servay website" />
+    <meta name="Author" content="Abu Sams Araf" />
+
+    <link rel="stylesheet" href="Style.css" />
+    <title>araf.dev | Servay Form</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Servay Form</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <form action="/">
+          <div class="form-controll">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-controll">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter valid email"
+              required
+            />
+          </div>
+          <div class="form-controll">
+            <label for="password">Password:</label>
+            <input
+              type="text"
+              id="password"
+              name="password"
+              placeholder="Enter valid password"
+              required
+            />
+          </div>
+          <div class="form-controll">
+            <label for="db">Date of Birth:</label>
+            <input type="date" name="db" id="db" required />
+          </div>
+          <div class="form-controll">
+            <label for="describe">Which option best describes you:</label>
+            <select name="describe" id="describe">
+              <option value="Student">Student</option>
+              <option value="Intern">Intern</option>
+              <option value="Professional">Professional</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+          <div class="recom-group">
+            <div>
+              <label for="recom">Are you recomanded others araf.dev</label>
+            </div>
+            <div>
+              <input type="radio" name="recom" id="yes" />
+              <label for="yes">Yes</label>
+            </div>
+            <div>
+              <input type="radio" name="recom" id="no" />
+              <label for="no">NO</label>
+            </div>
+            <div>
+              <input type="radio" name="recom" id="later" />
+              <label for="later">Maybe later</label>
+            </div>
+          </div>
+          <br />
+          <div class="form-controll">
+            <label
+              >Languages and framwork knowns
+              <small>(check all that apply)</small>
+            </label>
+            <label for="inp1">
+              <input type="checkbox" name="inp" id="inp1" />
+              C++
+            </label>
+            <label for="inp2">
+              <input type="checkbox" name="inp" id="inp2" />
+              Java
+            </label>
+            <label for="inp3">
+              <input type="checkbox" name="inp" id="inp3" />
+              Python
+            </label>
+            <label for="inp4">
+              <input type="checkbox" name="inp" id="inp4" />
+              Javascript
+            </label>
+            <label for="inp5">
+              <input type="checkbox" name="inp" id="inp5" />
+              Rect.Js
+            </label>
+            <label for="inp6">
+              <input type="checkbox" name="inp" id="inp6" />
+              Node.js
+            </label>
+            <label for="inp7">
+              <input type="checkbox" name="inp" id="inp7" />
+              Express.Js
+            </label>
+            <label for="inp8">
+              <input type="checkbox" name="inp" id="inp8" />
+              MongoDB
+            </label>
+          </div>
+          <div class="commentbox">
+            <label for="comment" id="mension">Drop a comment</label>
+            <br>
+            <textarea name="comment" id="comment" rows="10" cols="50"></textarea>
+          </div>
+          <div>
+            <button>
+                <input type="submit" value="Submit">
+            </button>
+            <button><input type="reset" value="Clear">
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy 2025 | All Rights Reserved | araf.dev</p>
+      <p>Jajakallah Khayroon</p>
+    </footer>
+  </body>
+</html>
