@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="professional portfolio" />
+    <meta name="author" content="Abu Sams Araf" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>araf.dev | Portfolio</title>
+
+    <style>
+      /* ====== Base Reset ====== */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(1, 1, 41);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* ====== Header ====== */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(27, 27, 52);
+        height: 70px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 2px 10px black;
+      }
+
+      nav ul {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+      }
+
+      nav ul a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(1, 1, 41);
+        padding: 6px 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px black;
+        transition: all 0.3s ease;
+      }
+
+      nav ul a:hover {
+        color: rgb(184, 168, 198);
+        background-color: rgb(33, 33, 66);
+      }
+
+      /* ====== Hero Section ====== */
+      .left-right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 40px 5%;
+      }
+
+      .left-section {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        font-size: 2rem;
+      }
+
+      .name {
+        color: rgb(133, 37, 217);
+        transition: color 0.3s ease;
+      }
+
+      .name:hover {
+        color: rgb(116, 80, 148);
+      }
+
+      .right-section {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+      }
+
+      .right-section img {
+        width: 70%;
+        border-radius: 10px;
+      }
+
+      #element {
+        color: rgb(133, 37, 217);
+      }
+
+      hr {
+        color: blueviolet;
+        margin: 50px 5%;
+        box-shadow: 1px 1px 3px black;
+      }
+
+      /* ====== Second Section (Work Experience) ====== */
+      .second-section {
+        margin: 5%;
+      }
+
+      .second-section h2 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .timeline {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .timeline-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 160px;
+        text-align: center;
+      }
+
+      .timeline-year {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .vartical {
+        background: aliceblue;
+        width: 2px;
+        height: 50px;
+        margin-bottom: 10px;
+      }
+
+      .timeline-item p {
+        font-size: 0.9rem;
+      }
+
+      .horizontal {
+        background: whitesmoke;
+        width: 80%;
+        height: 1px;
+        margin: 30px auto;
+      }
+
+      /* ====== Footer ====== */
+      footer {
+        background-color: rgb(45, 45, 69);
+        padding: 24px 16px;
+        margin-top: 40px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      footer ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      footer ul li {
+        margin-bottom: 5px;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      footer a:hover {
+        color: rgb(133, 37, 217);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header>
+      <div class="left">
+        <h1 id="headername">araf.dev <i class="fa-solid fa-code"></i></h1>
+      </div>
+      <div class="right">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Explore More</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ====== Hero Section ====== -->
+    <main>
+      <section class="left-right">
+        <div class="left-section">
+          <p>Hi My Name Is <strong class="name">TOQI</strong></p>
+          <p>I'm A Passionate</p>
+          <span id="element"></span>
+        </div>
+
+        <div class="right-section">
+          <img src="image.png" alt="Profile Image" />
+        </div>
+      </section>
+
+      <hr />
+  
+      <!-- ====== Second Section ====== -->
+      <section class="second-section">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2020</div>
+            <div class="vartical"></div>
+            <p>Started learning programming and built my first project.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2021</div>
+             <div class="vartical"></div>
+            <p>Improved frontend skills and explored UI/UX design.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2022</div>
+            <div class="vartical"></div>
+            <p>Dived into backend development using Python & Django.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="vartical"></div>
+            <p>Built full-stack projects and started freelancing.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <div class="vartical"></div>
+            <p>Working on DevOps and cloud engineering integration.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====== Footer ====== -->
+    <footer>
+      <div>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Certificates</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Fullstack Web Developer</>", "Technical Blogger"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
